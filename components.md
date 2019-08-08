@@ -113,6 +113,21 @@ export default {
 </script>
 ```
 
+
+### Using data variableName inside methods using this.variableName
+
+```
+export default {
+  name: 'app',
+  methods: {
+    functionName(){
+        this.variableName = 123;
+    },
+  },
+}
+</script>
+```
+
 ### Computed Properties
 
 ```
