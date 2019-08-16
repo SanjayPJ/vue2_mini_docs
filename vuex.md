@@ -67,5 +67,12 @@ export default {
 
 **can use getterName inside template**
 
+## Despatch Actions from a method
+
+```
+this.$store.dispatch('loginUser', cred).then(() => {
+	this.$router.push({ name: "home" });
+})
+```
 
 ### 
